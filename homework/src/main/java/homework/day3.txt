@@ -1,0 +1,46 @@
+
+//public class day3 {
+//	Reserved words for data types:
+//		byte : A data type that can store whole numbers from -128 and 127
+//		short : A data type that can store whole numbers from -32768 to 32767
+//		int : A data type that can store whole numbers from -32768 to 32767
+//		long: A data type that can store whole numbers from -9223372036854775808 to 9223372036854775808
+//		float : A data type that can store whole numbers from 3.4e−038 to 3.4e+038
+//		double : 	A data type that can store whole numbers from 1.7e−308 to 1.7e+308
+//		char : A data type that is used to store a single character
+//		boolean : A data type that can only store true and false values
+//
+//		Reserved words for flow control:
+//		if: A data type that can only store true and false values
+//		else : A data type that can only store true and false values
+//		switch : A data type that can only store true and false values
+//		case : A data type that can only store true and false values
+//		default : Specifies the default block of code in a switch statement
+//		for : for loop....
+//		do : 	Used together with while to create a do-while loop
+//		while: while loop...
+//		break : Breaks out of a loop or a switch block
+//		continue: Continues to the next iteration of a loop
+//		return : 	Finished the execution of a method, and can be used to return a value from a method
+//
+//		Keywords for modifiers:
+//		public: An access modifier used for classes, attributes, methods and constructors, making them accessible by any other class
+//		private: An access modifier used for attributes, methods and constructors, making them only accessible within the declared class
+//		protected:An access modifier used for attributes, methods and constructors, making them accessible in the same package and subclasses
+//		abstract: An abstract method belongs to an abstract class, and it does not have a body. The body is provided by the subclass:
+//		native:  A native method is a Java method (either an instance method or a class method) whose implementation is also written in another programming language such as C/C++.
+//		strictfp(1.2 version) : strictfp is used to ensure that floating points operations give the same result on any platform. As floating points precision may vary from one platform to another. strictfp keyword ensures the consistency across the platforms.
+//		transient: transient is a variables modifier used in serialization. At the time of serialization, if we don’t want to save value of a particular variable in a file, then we use transient keyword. 
+//		volatile: 	Indicates that an attribute is not cached thread-locally, and is always read from the "main memory"
+//		
+//		keywords for exception handling:
+//		try,catch,finally ,throw,throws,assert(1.4 version) (done in class)....
+//		
+//		Class related keywords:
+//		class,package,import,extends,implements,interface (done in class)...
+//		
+//		Object related keywords:
+//		new,instanceof ,super ,this,
+//		
+//		instanceof: instanceof is a binary operator used to test if an object is of a given type. The result of the operation is either true or false. It's also known as type comparison operator because it compares the instance with type. Before casting an unknown object, the instanceof check should always be used.
+
