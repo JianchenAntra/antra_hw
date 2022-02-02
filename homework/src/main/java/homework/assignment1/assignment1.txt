@@ -1,0 +1,24 @@
+1. JDK,JRE,JVM£º
+JDK = (JRE) + Development tools
+JRE = (JVM) + Libraries to execute the application	
+JVM = Runtime environment to execute Java byte code.
+   JDK:JDK is a complete software development kit for developing Java applications. It comprises JRE, JavaDoc, compiler, debuggers, etc.	
+   JRE: JRE is a software package providing Java class libraries, JVM and all the required components to run the Java applications.	
+   JVM: JVM is a platform-dependent, abstract machine comprising of 3 specifications - document describing the JVM implementation requirements, computer program meeting the JVM requirements and instance object for executing the Java byte code and provide the runtime environment for execution.
+   
+2. A Java compiler is a program that takes the text file work of a developer and compiles it into a platform-independent Java file. Java compilers include the Java Programming Language Compiler (javac), the GNU Compiler for Java (GCJ), the Eclipse Compiler for Java (ECJ) and Jikes.
+3.In the case of Java, it is the magic of Bytecode that makes it platform independent.
+This adds to an important feature in the JAVA language termed as portability. Every system has its own JVM which gets installed automatically when the jdk software is installed. For every operating system separate JVM is available which is capable to read the .class file or byte code.
+An important point to be noted is that while JAVA is platform-independent language, the JVM is platform-dependent. Different JVM is designed for different OS and byte code is able to run on different OS.
+4.An integrated development environment (IDE) is a software suite that consolidates basic tools required to write and test software. Developers use numerous tools throughout software code creation, building and testing. Development tools often include text editors, code libraries, compilers and test platforms.
+5.Java, like most programming languages, is case sensitive. Even the slightest difference in naming indicates different objects (count does not equal Count). In order to be consistent, programmers follow naming conventions. For example, variables are lowercase (car) and classes are uppercase (Car).
+6.Answer in day3.txt
+7.The short answer is primitives are data types, while references are pointers, which do not hold their values but point to their values and are used on/with objects. The primitive data type is a basic type provided by a programming language as a basic building block. So it's predefined data types.
+8.	Java always works as a ¡°pass by value¡±. There is nothing called a ¡°pass by reference¡± in Java. However, when the object is passed in any method, the address of the value is passed due to the nature of object handling in Java. When an object is passed, a copy of the reference is created by Java and that is passed to the method. The objects point to the same memory location.
+9. "A"
+10.To turn an ordinary variable into a constant, you have to use the keyword "final."
+11.Strings, which are widely used in Java programming, are a sequence of characters. In the Java programming language, strings are objects. The Java platform provides the String class to create and manipulate strings.
+12.Integer. parseInt(String); Float. parseFloat(String); Double...
+13.
+14.
+   
