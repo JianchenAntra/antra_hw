@@ -1,4 +1,4 @@
-package homework.assignment1;
+package assignment1;
 
 
 public class mergeTwoArray {
