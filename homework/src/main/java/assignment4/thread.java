@@ -19,7 +19,7 @@ public class thread {
 	 public static void main(String[] args) throws ExecutionException, InterruptedException {
 		 List<String> sb = new ArrayList<>();
 		 
-	       ThreadRead t1 = new ThreadRead("input", sb); 
+	       ThreadRead t1 = new ThreadRead("in	put", sb); 
 	       
 	       ThreadWrite t2 = new ThreadWrite("output",sb);
 	       
@@ -30,7 +30,7 @@ public class thread {
 	       
 	   }
 	 
-	 class ThreadRead extends Thread{
+	 static class ThreadRead extends Thread{
 		 String name;
 		 List<String> sb = new ArrayList<>();
 		 ThreadRead(String name, List<String> sb) {
@@ -86,7 +86,7 @@ public class thread {
 		 
 	 }
 	 
-	 class ThreadWrite extends Thread{
+	 static class ThreadWrite extends Thread{
 		 String name;
 		 BufferedWriter br = null;
 		 List<String> sb = new ArrayList<>();
