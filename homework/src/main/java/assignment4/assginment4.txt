@@ -1,0 +1,36 @@
+1.What¡¯s	the	difference	between	final,	finally?	What	is	finalize()?
+Final: If any restriction is required for classes, variables, or methods, the final keyword comes in handy. Inheritance of a final class and overriding of a final method is restricted by the use of the final keyword. The variable value becomes fixed after incorporating the final keyword.
+Finally: It is the block present in a program where all the codes written inside it get executed irrespective of handling of exceptions. 
+Finalize: Prior to the garbage collection of an object, the finalize method is called so that the clean-up activity is implemented.
+2.The throw keyword is used to throw an exception explicitly. It can throw only one exception at a time. The throws keyword can be used to declare multiple exceptions, separated by a comma.
+3.There are mainly two types of exceptions: checked and unchecked. An error is considered as the unchecked exception.
+4.In Java, an error is a subclass of Throwable that tells that something serious problem is existing and a reasonable Java application should not try to catch that error. Generally, it has been noticed that most of the occurring errors are abnormal conditions and cannot be resolved by normal conditions.
+5. Yes
+6. Yes
+7.
+The try-with-resources statement is a try statement that declares one or more resources. A resource is an object that must be closed after the program is finished with it. The try-with-resources statement ensures that each resource is closed at the end of the statement. Any object that implements java.lang.AutoCloseable, which includes all objects which implement java.io.Closeable, can be used as a resource.
+
+The following example reads the first line from a file. It uses an instance of BufferedReader to read data from the file. BufferedReader is a resource that must be closed after the program is finished with it:
+
+static String readFirstLineFromFile(String path) throws IOException {
+    try (BufferedReader br =
+                   new BufferedReader(new FileReader(path))) {
+        return br.readLine();
+    }
+}
+In this example, the resource declared in the try-with-resources statement is a BufferedReader. The declaration statement appears within parentheses immediately after the try keyword. The class BufferedReader, in Java SE 7 and later, implements the interface java.lang.AutoCloseable. Because the BufferedReader instance is declared in a try-with-resource statement, it will be closed regardless of whether the try statement completes normally or abruptly (as a result of the method BufferedReader.readLine throwing an IOException).
+
+
+8. The Exception object will be garbage collected in the next garbage collection.
+9.It is recommended to use String values in a switch statement if the data you are dealing with is also Strings. The expression in the switch cases must not be null else, a NullPointerException is thrown (Run-time). Comparison of Strings in switch statement is case sensitive.
+
+10.ArrayList in java, uses dynamic arrays to store its elements and maintains insertion order. ArrayList can store duplicate elements. It is a non synchronized collection type. ArrayList class extends AbstractList and implements the List, RandomAccess, Cloneable, Serializable interfaces.
+LinkedList in java, uses linked list data structure as it¡¯s internal implementation to store elements. It can store duplicate elements. LinkedList class extends AbstractSequentialList and implements the List, Deque, Cloneable, Serializable interfaces. Like ArrayList, LinkedList is also not synchronized.
+Vector class in java, implements a growable or dynamic array of objects. Similar to an array, Vector contains components which can be accessed using an integer index. After the Vector creation, the size of a Vector can grow or shrink as needed to accommodate adding and removing elements. Vector extends AbstractList and implements List, RandomAccess, Cloneable, Serializable interfaces.
+11.HashMap	HashTable
+HashMap is not synchronized thereby making it better for non-threaded applications.	HashTable is synchronized and hence it is suitable for threaded applications.
+Allows only one null key but any number of null in the values.	This does not allow null in both keys or values.
+Supports order of insertion by making use of its subclass LinkedHashMap.	Order of insertion is not guaranteed in HashTable.
+12.Static import is a feature introduced in the Java programming language that allows members (fields and methods) which have been scoped within their container class as public static , to be used in Java code without specifying the class in which the field has been defined.
+13.In a Java class, a static block is a set of instructions that is run only once when a class is loaded into memory. A static block is also called a static initialization block. This is because it is an option for initializing or setting up the class at run-time.
+14. Done in homework....
