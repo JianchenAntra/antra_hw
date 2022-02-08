@@ -1,0 +1,12 @@
+Deadlocks occur when two processes want to access resources that are mutually being locked by each other. This locked situation can continue forever if nobody stops it.
+
+How to detect:
+ 1. If resources have a single instance ¨C
+In this case for Deadlock detection, we can run an algorithm to check for the cycle in the Resource Allocation Graph. The presence of a cycle in the graph is a sufficient condition for deadlock. 
+ Deadlock Recovery : 
+A traditional operating system such as Windows doesn¡¯t deal with deadlock recovery as it is a time and space-consuming process. Real-time operating systems use Deadlock recovery. 
+
+Killing the process ¨C
+Killing all the processes involved in the deadlock. Killing process one by one. After killing each process check for deadlock again keep repeating the process till the system recovers from deadlock. Killing all the processes one by one helps a system to break circular wait condition.
+Resource Preemption ¨C
+Resources are preempted from the processes involved in the deadlock, preempted resources are allocated to other processes so that there is a possibility of recovering the system from deadlock. In this case, the system goes into starvation.
