@@ -65,3 +65,8 @@ Ease backend database load
 Cache your data to reduce pressure on your backend database, enabling higher application scalability and reducing operational burden.
 Build low-latency data stores
 Use ElastiCache to store non-durable datasets in memory and support real-time applications with microsecond latency.
+
+Vertical scaling refers to increasing the processing power of a single server or cluster.
+Vertical scaling refers to adding more resources (CPU/RAM/DISK) to your server (database or application server is still remains one) as on demand. ... Vertical Scaling usually means upgrade of server hardware
+
+Horizontal Scaling on the other hand means that more servers are added and the database is distributed across them. Hence you still work with one database but multiple servers that host it.
