@@ -1,4 +1,7 @@
 The SAGA Pattern
 A saga pattern is a sequence of local transactions where each transaction updates data within a single service. The first transaction in a saga is initiated by an external request corresponding to the system operation, and then each subsequent step is triggered by the completion of the previous one.
 
-One of the most well-known patterns for distributed transactions is called Saga. The first paper about it was published back in 1987 and sagas have been a popular solution since then.
+One of the most well-known patterns for distributed transactions is called Saga. The first paper about it was published back in 1987 and sagas have been a popular solution since then.\
+
+
+https://www.geeksforgeeks.org/difference-between-join-and-union-in-sql/
