@@ -8,5 +8,8 @@ This page is for recording Jianchen's study progress, plan and checklist at Antr
 * 3/10/2022 : Going through JDBC to Spring, review and research basic concepts and record in google docs..
 			  new things learned: agile programming
 			  things to do tomorrow: write/test demo spring framework of REST API .
+* 3/12/2022 : set up spring boot environment.. demo code for spring boot project and review spring boot architecture.
+			  things to do tomorrow : 1. create custom exception/ resource REST API/ GET/UPDATE/DELETE... 2. Review class on Friday 
+			  
 
 			  
